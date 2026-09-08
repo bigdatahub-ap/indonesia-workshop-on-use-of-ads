@@ -1,0 +1,6 @@
+.git
+.github
+.quarto
+_site
+*.parquet
+**/*.quarto_ipynb

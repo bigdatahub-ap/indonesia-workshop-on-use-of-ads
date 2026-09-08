@@ -1,6 +1,6 @@
 ---
 title: "Pre-requisites for synchronous and asynchronous coding activities"
-date: June 22, 2026
+date: September 21, 2026
 format:
   html:
     toc: true
@@ -11,7 +11,7 @@ format:
 
 For synchronous and asynchronous coding activities we suggest users to leverage an online service to run Python and R code.
 
-The main environment suggested is [Google colab](https://colab.research.google.com/), which has a generous free tier at the moment of writing (June 2026).
+The main environment suggested is [Google colab](https://colab.research.google.com/), which has a generous free tier at the moment of writing (September 2026).
 
 You can use an existing Google account to access it, or create a new one dedicated to the course activities. Just make sure to get access to it before the start of the course to avoid any delay.
 

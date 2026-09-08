@@ -8,48 +8,74 @@ format:
 
 # Workshop Format and Structure
 
-The workshop is proposed as a **five-day virtual event**, combining synchronous and asynchronous activities, to balance live interaction with flexibility for participants.
+The workshop is proposed as a **nine-day virtual event**, combining synchronous and asynchronous activities, to balance live interaction with flexibility for participants.
 
--   **Synchronous sessions** are proposed for **Monday, Wednesday, and Friday**, from **10:00 to 12:00 (Brasília time, GMT-3)**. These sessions would focus on conceptual discussions, methodological guidance, live demonstrations, and interactive exchanges with the Task Team.
+-   **Synchronous sessions** are proposed from **14:00 to 16:00 (Jakarta time, GMT+7)**. These sessions would focus on conceptual discussions, methodological guidance, live demonstrations, and interactive exchanges with the Task Team.
 
--   **Asynchronous activities** are proposed for **Tuesday and Thursday**, allowing participants to engage with selected materials, exercises, or practical tasks at their own pace. These activities would build on the content of the synchronous sessions and reinforce key concepts and tools
+-   **Asynchronous activities** allow participants to engage with selected materials, exercises, or practical tasks at their own pace. These activities would build on the content of the synchronous sessions and reinforce key concepts and tools.
 
 # Day by day agenda
 
-## Monday June 22
+## Monday September 21
 
 | Time | **Session** | **Speakers / Facilitator** |
 |-----------------|----------------------------------|---------------------|
-| 10:00 – 10:15 | [Introduction to the workshop and tour de table](/content/presentations/0-Workshop-intro.pdf) | Tanya Flower (UNTT, UK ONS), Vladimir Goncalves Miranda /Lincoln |
-| 10:15 – 10:50 | [Overview of alternative data sources for CPI compilation (Scanner data, web scraping, APIs, administrative data)](/content/presentations/1-Introduction-to-ADS_general.pdf) | Federico Polidoro (UNTT, World Bank) |
-| 10:50 – 11:15 | [Overview of the main challenges to obtain alternative data for CPI compilation](/content/presentations/2-Introduction-to-ADS-data-acquisition_general.pdf) | Federico Polidoro (UNTT, World Bank) |
-| 11:15 – 12:00 | [Alternative data preparation, cleaning, and classification for price statistics. Illustration for Tuesday asynchronous activities](/content/presentations/3-Data-Preparation-and-Classification.pdf) | Sandra Andric (UNTT, Statistics Canada), Serge Goussev (UNTT, Statistics Canada) |
+| 14:00 – 14:20 | Introduction to the workshop and round table | Tanya Flower / Helen Sands (UNTT, UK ONS), Indonesia Hub |
+| 14:20 – 15:10 | Overview of alternative data sources for CPI compilation | Federico Polidoro (UNTT, World Bank) |
+| 15:10 – 16:00 | Overview of the main challenges to obtain alternative data for CPI compilation | Federico Polidoro (UNTT, World Bank) |
 
-## Tuesday June 23
+## Tuesday September 22
+
+| Time | **Session** | **Speakers / Facilitator** |
+|-----------------|----------------------------------|---------------------|
+| 14:00 – 15:00 | Alternative data preparation, cleaning, and classification for price statistics | TBC – Serge Goussev / Federico Polidoro |
 
 Asynchronous Activities (self paced).
 
-Details on recommended activities outlined on [slide 19 of the last presentation](/content/presentations/3-Data-Preparation-and-Classification.pdf). The [pre-requisites page](/content/pre-reqs.qmd) outlines how you could stand coding without too much difficulty.
+The [pre-requisites page](/content/pre-reqs.qmd) outlines how you could stand coding without too much difficulty.
 
-If you have any questions, raise questions using the chat of the all-day meeting.
-
-## Wednesday June 24
+## Wednesday September 23
 
 | Time | **Session** | **Speakers / Facilitator** |
 |-----------------|----------------------------------|---------------------|
-| 10:00 – 10:30 | Report on the asynchronous activities | Participants, All the speakers of Day 1 |
-| 10:30 – 11:20 | [Use of alternative data sources in CPI compilation. Bilateral and multilateral indices](/content/presentations/4-Use-of-alternative-data-sources-in-CPI-compilation-Bilateral-and-multilateral-indices.pdf) | Helen Sands (UK ONS) |
-| 11:20 – 12:00 | [Introduction to tools and packages for multilateral indices using scanner data and materials for Thursday asynchronous activities](/content/presentations/5-Multilateral_indices_calculation.pdf) | Luigi Palumbo (UNTT, Bank of Italy), Oskar Eugster (UNTT, Statistics Switzerland) |
+| 14:00 – 15:00 | Q&A session for asynchronous activities | TBC – Caspien, Tanya, Federico |
 
-## Thrusday June 24
+Asynchronous Activities (self paced).
+
+## Thursday September 24
+
+Asynchronous Activities (self paced).
+
+## Monday September 28
+
+| Time | **Session** | **Speakers / Facilitator** |
+|-----------------|----------------------------------|---------------------|
+| 14:00 – 15:00 | Use of alternative data sources in CPI compilation | Helen Sands (UNTT, UK ONS) |
+| 15:00 – 16:00 | Quality assurance, validation, and comparison with traditional price data | Tanya Flower (UNTT, UK ONS) |
+
+## Tuesday September 29
+
+| Time | **Session** | **Speakers / Facilitator** |
+|-----------------|----------------------------------|---------------------|
+| 14:00 – 15:00 | Introduction to tools and packages for multilateral indices using scanner data | Luigi Palumbo (UNTT, Bank of Italy), Oskar Eugster (UNTT, Statistics Switzerland) |
 
 Asynchronous Activities (self paced). Check out the [Index calculation exercises in R](/notebooks/Index_Calculation_Exercises_in_R.ipynb) and ([solutions](/notebooks/Index_Calculation_Exercises_Solutions_in_R.ipynb)) and the same in [Python](/notebooks/index_calculation_exercises_Python.ipynb) (and [solutions](/notebooks/index_calculation_exercises_solutions_Python.ipynb))
 
-## Friday June 26
+## Wednesday September 30
+
+| Time | **Session** | **Speakers / Facilitator** |
+|-----------------|----------------------------------|---------------------|
+| 14:00 – 15:00 | Q&A session for asynchronous activities | Luigi Palumbo, Oskar Eugster, Tanya Flower, Federico Polidoro |
+
+Asynchronous Activities (self paced).
+
+## Thursday October 1
+
+Asynchronous Activities (self paced).
+
+## Friday October 2
 
 | Time | **Session** | **Speakers / Facilitator** |
 |-----------------|-----------------------|--------------------------------|
-| 10:00 – 10:45 | Report on the asynchronous activities and further discussion on multilateral indices | Participants / All the speakers of Day 2 |
-| 10:45 – 11:15 | [Quality assurance, validation, and comparison with traditional price data](/content/presentations/6-Quality-of-ADS.pdf) | Tanya Flower (UNTT, UK ONS) |
-| 11:15 – 11:45 | [Institutional and operational considerations for integrating scanner data into regular statistical production](/content/presentations/7-Institutional-and-operational-considerations-for-integrating-scanner-data-into-regular-statistical-production.pdf) | Helen Sands (UNTT, UK ONS) |
-| 11:45 – 12:00 | Conclusion and way forward | Tanya Flower (UNTT, UK ONS), Vladimir Goncalves Miranda / Lincoln Teixeira da Silva / Bruno Garcia / Paulo Tostes dos Santos (UN Regional Hub, IBGE) |
+| 14:00 – 15:00 | Institutional and operational considerations for integrating scanner data into regular statistical production | Helen Sands (UNTT, UK ONS) |
+| 15:00 – 15:45 | Conclusion, final Q&A, and way forward | Tanya Flower (UNTT, UK ONS), all presenters, Indonesia Hub |

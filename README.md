@@ -1,20 +1,22 @@
-# Site for the 2026 Brazil Workshop on the Use of Alternative Data Sources for Consumer Price Statistics
-
-[**Visit the event site for more details.**](https://un-task-team-for-scanner-data.github.io/brazil-workshop-on-use-of-ads/)
+# Site for the 2026 Indonesia Workshop on Scanner Data
 
 ## Event summary
 
-**Host Country**: Brazil
+**Host Country**: Indonesia
 
 **Organizers**:
 
--   UN Regional Hub for Big Data and Data Science in Brazil
+-   UN Regional Hub on Big Data and Data Science for Asia and the Pacific
 
 -   UN Task Team on Scanner Data
 
-**Dates**: 22–26 June 2026
+-   Politeknik Statistika STIS
 
-**Format**: Fully virtual
+-   BPS – Statistics Indonesia
+
+**Dates**: 21 September – 2 October 2026
+
+**Format**: Fully virtual, combining synchronous and asynchronous activities
 
 **Working Language**: English
 
@@ -30,3 +32,13 @@
     ├── images/             # Folder to store images used for the site
     └── *.qmd               # Quarto files part of event site
 ```
+
+## Deployment
+
+The site is built and served with Docker. From the repository root:
+
+```
+docker compose up --build
+```
+
+This renders the Quarto project and serves the static output with nginx, available at [http://localhost:8080](http://localhost:8080). Run with `-d` to start it in the background, and `docker compose down` to stop it.

@@ -3,3 +3,5 @@ _site/
 
 # Data file formats
 *.parquet
+**/*.quarto_ipynb
+.claude
