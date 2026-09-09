@@ -41,4 +41,16 @@ The site is built and served with Docker. From the repository root:
 docker compose up --build
 ```
 
-This renders the Quarto project and serves the static output with nginx, available at [http://localhost:8080](http://localhost:8080). Run with `-d` to start it in the background, and `docker compose down` to stop it.
+This starts two containers:
+
+-   `site` — renders the Quarto project and serves the static output with nginx (not published to the host directly).
+-   `proxy` — an nginx reverse proxy (config in [nginx/proxy.conf](nginx/proxy.conf)) that publishes the site at [http://localhost:8080/material/workshop-on-scanner-data/](http://localhost:8080/material/workshop-on-scanner-data/), matching the production path `https://hub.bps.go.id/material/workshop-on-scanner-data`.
+
+Run with `-d` to start in the background, and `docker compose down` to stop.
+
+Quarto's HTML output only ever uses relative links, so the rendered site works under any path prefix without modification — the `proxy` service is just an example of the reverse-proxy configuration needed to host it that way in production:
+
+-   Redirect the bare prefix (`/material/workshop-on-scanner-data`) to the trailing-slash form (`/material/workshop-on-scanner-data/`) **before** stripping the prefix, so the browser's URL keeps the prefix and relative links resolve correctly.
+-   Strip the prefix when forwarding to the `site` container (`proxy_pass http://site:80/;`), since `site` itself serves from its own root.
+
+If your production reverse proxy passes the `/material/workshop-on-scanner-data` prefix through unchanged instead of stripping it (e.g. a transparent path-based router), point it at the `site` container's root and adjust its own routing/alias rules accordingly rather than using this proxy config as-is.
