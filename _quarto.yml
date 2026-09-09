@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Indonesia Workshop on Scanner Data"
-  repo-url: https://github.com/UN-Task-Team-for-Scanner-Data/brazil-workshop-on-use-of-ads/
+  repo-url: https://github.com/bigdatahub-ap/indonesia-workshop-on-use-of-ads/
   favicon: content\images\logo.png
   bread-crumbs: true
   page-navigation: true

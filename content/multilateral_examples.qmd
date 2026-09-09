@@ -22,4 +22,4 @@ See the [open source materials within the discipline](https://un-task-team-for-s
 
 ## Notebooks
 
-Jupyter notebooks will be loaded in a dedicated folder of the [GitHub repository](https://github.com/UN-Task-Team-for-Scanner-Data/brazil-workshop-on-use-of-ads/tree/main/notebooks). You can load them directly in Google Colab.
+Jupyter notebooks will be loaded in a dedicated folder of the [GitHub repository](https://github.com/bigdatahub-ap/indonesia-workshop-on-use-of-ads/tree/main/notebooks). You can load them directly in Google Colab.
