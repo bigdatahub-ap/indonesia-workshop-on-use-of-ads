@@ -35,6 +35,9 @@ website:
       - icon: calendar2-week
         text: "Agenda"
         href: content/agenda.qmd
+      - icon: file-earmark-slides
+        text: "Materials"
+        href: content/materials.qmd
       - icon: code
         text: Examples and practical exercises
         menu:

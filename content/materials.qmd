@@ -1,0 +1,38 @@
+---
+title: "Workshop materials"
+format:
+  html:
+    toc: true
+    toc-expand: 2
+---
+
+Slides and other materials shared during the workshop, organized by day. Materials for later days will be added here as sessions take place.
+
+## Monday September 21
+
+-   [Overview of alternative data sources for CPI compilation](https://drive.google.com/file/d/1MBwdLE0QPbevcG48dPXcqlbPuzOzy-8J/view?usp=drive_link)
+-   [Overview of the main challenges to obtain alternative data for CPI compilation](https://drive.google.com/file/d/1BLiIFPw7c3OWxDTrWWAK-6-RkdIAGDjX/view?usp=drive_link)
+
+## Tuesday September 22
+
+_Materials will be added after the session._
+
+## Wednesday September 23
+
+_Materials will be added after the session._
+
+## Monday September 28
+
+_Materials will be added after the session._
+
+## Tuesday September 29
+
+_Materials will be added after the session._
+
+## Wednesday September 30
+
+_Materials will be added after the session._
+
+## Friday October 2
+
+_Materials will be added after the session._
