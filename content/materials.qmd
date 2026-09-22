@@ -15,7 +15,7 @@ Slides and other materials shared during the workshop, organized by day. Materia
 
 ## Tuesday September 22
 
-_Materials will be added after the session._
+-   [Alternative data preparation, cleaning, and classification for price statistics](https://drive.google.com/file/d/1ccSBsZ5SZrZAj4_I_EyCwAHF8DfG2rXO/view?usp=drive_link)
 
 ## Wednesday September 23
 
